@@ -1,0 +1,179 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background: url("IMG/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topo img {
+    margin: 5%;
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    border: 2px solid deeppink;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    float: left;
+}
+.nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color:deeppink ;
+}
+.nome h3 {
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+    
+}
+.menu {
+    height: 500px;
+    width: 300px;
+    float: left;
+    color: darkmagenta;
+    text-decoration: none;
+}
+.topico {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+        
+}
+a:hover{
+    color: palevioletred;
+}
+
+.topico a{
+    text-decoration: none;
+}
+.principal {
+    height: 500px;
+    color: darkmagenta;
+}
+.lista {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.texto {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 20px;
+}
+.rodape {
+    background-color: palevioletred;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+}
+.rodapeI {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#projecont{
+    padding-top: 10%;
+}
+
+.icone{
+    width: 30px;
+    height: 30px;
+    text-align: center; 
+} 
+.iconep{
+    width: 50px;
+    height: 50px;
+    text-align: center; 
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes a{
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.redes p{
+    margin: 2px;
+   
+}
+
+.coluna3{
+     float: left;
+     padding: 0 5%;
+     position: relative;
+     width: 23%;
+     text-align: center;
+}
+.coluna3 a{
+    text-decoration: none;
+
+}
+
+.justificado{
+    color: darkmagenta;
+    text-align: justify;
+
+}
+.topicop {
+    text-align:center;
+    padding-top: 10%;
+    color: palevioletred;
+}
+.contato{
+    color:darkmagenta;
+    margin: 2%;
+    width: 50%;
+    float: left;
+}
+.imgContato{
+    width: 40%;
+    padding-top: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contato h1{
+    color:palevioletred;
+}
+.form label{
+    width: 100px;
+    display: inline-block;
+    line-height: 3;
+    vertical-align:top;
+}
+.form input[type=text], textarea {
+    border: none;
+    border-bottom: 1px solid palevioletred;
+    width: 60%;
+    background-color: rgba(250, 212, 219, 0.699);
+    padding: 10px;
+}
+.form textarea{
+    width:280px;
+    height:120px;
+}
+.form input[type=submit]{
+    border: 1px solid palevioletred;
+    color:deeppink;
+}
